@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import {TestComponent} from "./TestComponent";
+import {ChangeColorComponent} from "./ChangeColorComponent";
 
 function App() {
   return (
     <div className="App">
 
       <TestComponent/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+      <ChangeColorComponent/>
 
       {/*<header className="App-header">*/}
       {/*  <img src={logo} className="App-logo" alt="logo" />*/}
